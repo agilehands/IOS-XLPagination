@@ -23,6 +23,7 @@
 		07F6A4F314B7E54600D7A97F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4F114B7E54600D7A97F /* InfoPlist.strings */; };
 		07F6A4F514B7E54600D7A97F /* XLPaginationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4F414B7E54600D7A97F /* XLPaginationTests.h */; };
 		07F6A4F714B7E54600D7A97F /* XLPaginationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A4F614B7E54600D7A97F /* XLPaginationTests.m */; };
+		07F6A50714B7E65800D7A97F /* PaginationAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A50614B7E65800D7A97F /* PaginationAgent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		07F6A4F214B7E54600D7A97F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07F6A4F414B7E54600D7A97F /* XLPaginationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPaginationTests.h; sourceTree = "<group>"; };
 		07F6A4F614B7E54600D7A97F /* XLPaginationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPaginationTests.m; sourceTree = "<group>"; };
+		07F6A50514B7E65800D7A97F /* PaginationAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationAgent.h; sourceTree = "<group>"; };
+		07F6A50614B7E65800D7A97F /* PaginationAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginationAgent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		07F6A4B914B7E54500D7A97F = {
 			isa = PBXGroup;
 			children = (
+				07F6A50414B7E65800D7A97F /* PaginationAgent */,
 				07F6A4CE14B7E54500D7A97F /* XLPagination */,
 				07F6A4EE14B7E54600D7A97F /* XLPaginationTests */,
 				07F6A4C714B7E54500D7A97F /* Frameworks */,
@@ -153,6 +157,15 @@
 				07F6A4F114B7E54600D7A97F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F6A50414B7E65800D7A97F /* PaginationAgent */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A50514B7E65800D7A97F /* PaginationAgent.h */,
+				07F6A50614B7E65800D7A97F /* PaginationAgent.m */,
+			);
+			path = PaginationAgent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 				07F6A4D514B7E54500D7A97F /* main.m in Sources */,
 				07F6A4D914B7E54600D7A97F /* XLPaginationAppDelegate.m in Sources */,
 				07F6A4DD14B7E54600D7A97F /* XLPaginationViewController.m in Sources */,
+				07F6A50714B7E65800D7A97F /* PaginationAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +449,7 @@
 				07F6A4FC14B7E54600D7A97F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F6A4FD14B7E54600D7A97F /* Build configuration list for PBXNativeTarget "XLPaginationTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +458,7 @@
 				07F6A4FF14B7E54600D7A97F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
