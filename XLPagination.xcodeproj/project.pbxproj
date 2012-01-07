@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F6A4C914B7E54500D7A97F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4C814B7E54500D7A97F /* UIKit.framework */; };
+		07F6A4CB14B7E54500D7A97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4CA14B7E54500D7A97F /* Foundation.framework */; };
+		07F6A4CD14B7E54500D7A97F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4CC14B7E54500D7A97F /* CoreGraphics.framework */; };
+		07F6A4D314B7E54500D7A97F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4D114B7E54500D7A97F /* InfoPlist.strings */; };
+		07F6A4D514B7E54500D7A97F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A4D414B7E54500D7A97F /* main.m */; };
+		07F6A4D914B7E54600D7A97F /* XLPaginationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A4D814B7E54600D7A97F /* XLPaginationAppDelegate.m */; };
+		07F6A4DB14B7E54600D7A97F /* XLPaginationViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4DA14B7E54600D7A97F /* XLPaginationViewController.h */; };
+		07F6A4DD14B7E54600D7A97F /* XLPaginationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A4DC14B7E54600D7A97F /* XLPaginationViewController.m */; };
+		07F6A4E014B7E54600D7A97F /* XLPaginationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4DE14B7E54600D7A97F /* XLPaginationViewController.xib */; };
+		07F6A4E814B7E54600D7A97F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4E714B7E54600D7A97F /* SenTestingKit.framework */; };
+		07F6A4E914B7E54600D7A97F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4C814B7E54500D7A97F /* UIKit.framework */; };
+		07F6A4EA14B7E54600D7A97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4CA14B7E54500D7A97F /* Foundation.framework */; };
+		07F6A4EB14B7E54600D7A97F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6A4CC14B7E54500D7A97F /* CoreGraphics.framework */; };
+		07F6A4F314B7E54600D7A97F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4F114B7E54600D7A97F /* InfoPlist.strings */; };
+		07F6A4F514B7E54600D7A97F /* XLPaginationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 07F6A4F414B7E54600D7A97F /* XLPaginationTests.h */; };
+		07F6A4F714B7E54600D7A97F /* XLPaginationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6A4F614B7E54600D7A97F /* XLPaginationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F6A4EC14B7E54600D7A97F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F6A4BB14B7E54500D7A97F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F6A4C314B7E54500D7A97F;
+			remoteInfo = XLPagination;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F6A4C414B7E54500D7A97F /* XLPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F6A4C814B7E54500D7A97F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F6A4CA14B7E54500D7A97F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F6A4CC14B7E54500D7A97F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F6A4D014B7E54500D7A97F /* XLPagination-Info.plist */ = {isa = PBXFileReference; path = "XLPagination-Info.plist"; sourceTree = "<group>"; };
+		07F6A4D214B7E54500D7A97F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F6A4D414B7E54500D7A97F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F6A4D614B7E54500D7A97F /* XLPagination-Prefix.pch */ = {isa = PBXFileReference; path = "XLPagination-Prefix.pch"; sourceTree = "<group>"; };
+		07F6A4D714B7E54600D7A97F /* XLPaginationAppDelegate.h */ = {isa = PBXFileReference; path = XLPaginationAppDelegate.h; sourceTree = "<group>"; };
+		07F6A4D814B7E54600D7A97F /* XLPaginationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPaginationAppDelegate.m; sourceTree = "<group>"; };
+		07F6A4DA14B7E54600D7A97F /* XLPaginationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPaginationViewController.h; sourceTree = "<group>"; };
+		07F6A4DC14B7E54600D7A97F /* XLPaginationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPaginationViewController.m; sourceTree = "<group>"; };
+		07F6A4DF14B7E54600D7A97F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XLPaginationViewController.xib; sourceTree = "<group>"; };
+		07F6A4E614B7E54600D7A97F /* XLPaginationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPaginationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F6A4E714B7E54600D7A97F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07F6A4F014B7E54600D7A97F /* XLPaginationTests-Info.plist */ = {isa = PBXFileReference; path = "XLPaginationTests-Info.plist"; sourceTree = "<group>"; };
+		07F6A4F214B7E54600D7A97F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F6A4F414B7E54600D7A97F /* XLPaginationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLPaginationTests.h; sourceTree = "<group>"; };
+		07F6A4F614B7E54600D7A97F /* XLPaginationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPaginationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F6A4C114B7E54500D7A97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4C914B7E54500D7A97F /* UIKit.framework in Frameworks */,
+				07F6A4CB14B7E54500D7A97F /* Foundation.framework in Frameworks */,
+				07F6A4CD14B7E54500D7A97F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F6A4E214B7E54600D7A97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4E814B7E54600D7A97F /* SenTestingKit.framework in Frameworks */,
+				07F6A4E914B7E54600D7A97F /* UIKit.framework in Frameworks */,
+				07F6A4EA14B7E54600D7A97F /* Foundation.framework in Frameworks */,
+				07F6A4EB14B7E54600D7A97F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F6A4B914B7E54500D7A97F = {
+			isa = PBXGroup;
+			children = (
+				07F6A4CE14B7E54500D7A97F /* XLPagination */,
+				07F6A4EE14B7E54600D7A97F /* XLPaginationTests */,
+				07F6A4C714B7E54500D7A97F /* Frameworks */,
+				07F6A4C514B7E54500D7A97F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F6A4C514B7E54500D7A97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4C414B7E54500D7A97F /* XLPagination.app */,
+				07F6A4E614B7E54600D7A97F /* XLPaginationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F6A4C714B7E54500D7A97F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4C814B7E54500D7A97F /* UIKit.framework */,
+				07F6A4CA14B7E54500D7A97F /* Foundation.framework */,
+				07F6A4CC14B7E54500D7A97F /* CoreGraphics.framework */,
+				07F6A4E714B7E54600D7A97F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F6A4CE14B7E54500D7A97F /* XLPagination */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4D714B7E54600D7A97F /* XLPaginationAppDelegate.h */,
+				07F6A4D814B7E54600D7A97F /* XLPaginationAppDelegate.m */,
+				07F6A4DA14B7E54600D7A97F /* XLPaginationViewController.h */,
+				07F6A4DC14B7E54600D7A97F /* XLPaginationViewController.m */,
+				07F6A4DE14B7E54600D7A97F /* XLPaginationViewController.xib */,
+				07F6A4CF14B7E54500D7A97F /* Supporting Files */,
+			);
+			path = XLPagination;
+			sourceTree = "<group>";
+		};
+		07F6A4CF14B7E54500D7A97F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4D014B7E54500D7A97F /* XLPagination-Info.plist */,
+				07F6A4D114B7E54500D7A97F /* InfoPlist.strings */,
+				07F6A4D414B7E54500D7A97F /* main.m */,
+				07F6A4D614B7E54500D7A97F /* XLPagination-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F6A4EE14B7E54600D7A97F /* XLPaginationTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4F414B7E54600D7A97F /* XLPaginationTests.h */,
+				07F6A4F614B7E54600D7A97F /* XLPaginationTests.m */,
+				07F6A4EF14B7E54600D7A97F /* Supporting Files */,
+			);
+			path = XLPaginationTests;
+			sourceTree = "<group>";
+		};
+		07F6A4EF14B7E54600D7A97F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F6A4F014B7E54600D7A97F /* XLPaginationTests-Info.plist */,
+				07F6A4F114B7E54600D7A97F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F6A4C314B7E54500D7A97F /* XLPagination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F6A4FA14B7E54600D7A97F /* Build configuration list for PBXNativeTarget "XLPagination" */;
+			buildPhases = (
+				07F6A4C014B7E54500D7A97F /* Sources */,
+				07F6A4C114B7E54500D7A97F /* Frameworks */,
+				07F6A4C214B7E54500D7A97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPagination;
+			productName = XLPagination;
+			productReference = 07F6A4C414B7E54500D7A97F /* XLPagination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F6A4E514B7E54600D7A97F /* XLPaginationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F6A4FD14B7E54600D7A97F /* Build configuration list for PBXNativeTarget "XLPaginationTests" */;
+			buildPhases = (
+				07F6A4E114B7E54600D7A97F /* Sources */,
+				07F6A4E214B7E54600D7A97F /* Frameworks */,
+				07F6A4E314B7E54600D7A97F /* Resources */,
+				07F6A4E414B7E54600D7A97F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F6A4ED14B7E54600D7A97F /* PBXTargetDependency */,
+			);
+			name = XLPaginationTests;
+			productName = XLPaginationTests;
+			productReference = 07F6A4E614B7E54600D7A97F /* XLPaginationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F6A4BB14B7E54500D7A97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Xapplab;
+			};
+			buildConfigurationList = 07F6A4BE14B7E54500D7A97F /* Build configuration list for PBXProject "XLPagination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07F6A4B914B7E54500D7A97F;
+			productRefGroup = 07F6A4C514B7E54500D7A97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F6A4C314B7E54500D7A97F /* XLPagination */,
+				07F6A4E514B7E54600D7A97F /* XLPaginationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F6A4C214B7E54500D7A97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4D314B7E54500D7A97F /* InfoPlist.strings in Resources */,
+				07F6A4DB14B7E54600D7A97F /* XLPaginationViewController.h in Resources */,
+				07F6A4E014B7E54600D7A97F /* XLPaginationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F6A4E314B7E54600D7A97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4F314B7E54600D7A97F /* InfoPlist.strings in Resources */,
+				07F6A4F514B7E54600D7A97F /* XLPaginationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F6A4E414B7E54600D7A97F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F6A4C014B7E54500D7A97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4D514B7E54500D7A97F /* main.m in Sources */,
+				07F6A4D914B7E54600D7A97F /* XLPaginationAppDelegate.m in Sources */,
+				07F6A4DD14B7E54600D7A97F /* XLPaginationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F6A4E114B7E54600D7A97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F6A4F714B7E54600D7A97F /* XLPaginationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F6A4ED14B7E54600D7A97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F6A4C314B7E54500D7A97F /* XLPagination */;
+			targetProxy = 07F6A4EC14B7E54600D7A97F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F6A4D114B7E54500D7A97F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F6A4D214B7E54500D7A97F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F6A4DE14B7E54600D7A97F /* XLPaginationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F6A4DF14B7E54600D7A97F /* en */,
+			);
+			name = XLPaginationViewController.xib;
+			sourceTree = "<group>";
+		};
+		07F6A4F114B7E54600D7A97F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F6A4F214B7E54600D7A97F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F6A4F814B7E54600D7A97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F6A4F914B7E54600D7A97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F6A4FB14B7E54600D7A97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLPagination/XLPagination-Prefix.pch";
+				INFOPLIST_FILE = "XLPagination/XLPagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F6A4FC14B7E54600D7A97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLPagination/XLPagination-Prefix.pch";
+				INFOPLIST_FILE = "XLPagination/XLPagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07F6A4FE14B7E54600D7A97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XLPagination.app/XLPagination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLPagination/XLPagination-Prefix.pch";
+				INFOPLIST_FILE = "XLPaginationTests/XLPaginationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07F6A4FF14B7E54600D7A97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XLPagination.app/XLPagination";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLPagination/XLPagination-Prefix.pch";
+				INFOPLIST_FILE = "XLPaginationTests/XLPaginationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F6A4BE14B7E54500D7A97F /* Build configuration list for PBXProject "XLPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F6A4F814B7E54600D7A97F /* Debug */,
+				07F6A4F914B7E54600D7A97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F6A4FA14B7E54600D7A97F /* Build configuration list for PBXNativeTarget "XLPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F6A4FB14B7E54600D7A97F /* Debug */,
+				07F6A4FC14B7E54600D7A97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F6A4FD14B7E54600D7A97F /* Build configuration list for PBXNativeTarget "XLPaginationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F6A4FE14B7E54600D7A97F /* Debug */,
+				07F6A4FF14B7E54600D7A97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F6A4BB14B7E54500D7A97F /* Project object */;
+}
